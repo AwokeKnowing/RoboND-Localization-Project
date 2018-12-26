@@ -1,0 +1,15 @@
+local_costmap:
+   global_frame: odom
+   robot_base_frame: robot_footprint
+   update_frequency: 5.0
+   publish_frequency: 5.0
+   width: 5.0
+   height: 5.0
+   resolution: 0.01
+   static_map: false
+   rolling_window: true
+   #sim_time: 2.0
+   #vx_sample: 30
+   #vx_sample: 50
+   #path_distance_bias: 60
+   #occdist_scale: .05
